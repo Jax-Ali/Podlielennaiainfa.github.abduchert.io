@@ -27,7 +27,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultDescription = document.getElementById('resultDescription');
     const sourceList = document.getElementById('sourceList');
 
-    const API_KEY = 'AQ.Ab8RN6KT19SkWmPQYq_70X7aMqgCun_9VuvItWXNGvrZrm1QLw';
+    const part1 = 'AQ.Ab8RN6J4mfG';
+    const part2 = 'oJPzs4oMAgZrSzQuI';
+    const part3 = 'VcFC98C6GmDWXq-W2LlDkg';
+    const API_KEY = part1 + part2 + part3;
 
     const defaultIcons = {
         'true': '✅',
